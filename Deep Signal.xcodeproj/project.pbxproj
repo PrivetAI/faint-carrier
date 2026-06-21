@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C48BB7D980A116AFC265D2 /* DeepSignalWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1B397B42F1D6311637E0 /* DeepSignalWebPanel.swift */; };
+		1031CCA0B83411E32121FE0A /* SignalRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB293E76082B9CF9A61F73 /* SignalRootView.swift */; };
+		149227990E1C93A9F6A8A002 /* DecodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52938E9E27D31E0ACE8E23D1 /* DecodeView.swift */; };
+		267E649BEF081EAFF55A12D0 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D312389BC0C78233AC8B745 /* GameModel.swift */; };
+		302EC8372A5A8AE1296222C3 /* Lore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446FC725786116EA26C92FBE /* Lore.swift */; };
+		3A04E16163EBDE9A26496661 /* ObservatoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC46212F99F4574D53857FB4 /* ObservatoryView.swift */; };
+		4036201E77B5979860B009D5 /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC7EE05C964AFC1973D9DD6 /* ArchiveView.swift */; };
+		525E7EE08006AB3C3F322D86 /* StarfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A74D34421227503A69C4447 /* StarfieldView.swift */; };
+		5E512F76707B87054D3CD0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D92548B35CF1FF0652A23 /* Assets.xcassets */; };
+		858AB53C1BF851D338DAB475 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8E44E946C48CD06AA2AAB /* SharedComponents.swift */; };
+		AB8267C5A16F58BC3618987B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA21E32FB17E363184D0BC3 /* SettingsView.swift */; };
+		B007A1EEADBF7AC8C8E5F976 /* DeepSignalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80150799A477D06B901AE21F /* DeepSignalApp.swift */; };
+		B265F49D8C32EE712D0E049A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E5D21C20B1BD4C46D21E7 /* Icons.swift */; };
+		BA3365FC8F104BD361A65ACD /* DeepSignalLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508889150CF67E6CDD914F68 /* DeepSignalLoadingScreen.swift */; };
+		FFD547F570EF70A6FA55FE28 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82B1A1CECA505182F02AC7 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		446FC725786116EA26C92FBE /* Lore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lore.swift; sourceTree = "<group>"; };
+		508889150CF67E6CDD914F68 /* DeepSignalLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSignalLoadingScreen.swift; sourceTree = "<group>"; };
+		52938E9E27D31E0ACE8E23D1 /* DecodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeView.swift; sourceTree = "<group>"; };
+		5DA21E32FB17E363184D0BC3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5F9D92548B35CF1FF0652A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FC7EE05C964AFC1973D9DD6 /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
+		64A8E44E946C48CD06AA2AAB /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		6CC303D9E607191FF1B675C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6D312389BC0C78233AC8B745 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		6E82B1A1CECA505182F02AC7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		712E5D21C20B1BD4C46D21E7 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		80150799A477D06B901AE21F /* DeepSignalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSignalApp.swift; sourceTree = "<group>"; };
+		9587943943C5A16E1E99D355 /* Deep Signal.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Deep Signal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A74D34421227503A69C4447 /* StarfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfieldView.swift; sourceTree = "<group>"; };
+		9D6A1B397B42F1D6311637E0 /* DeepSignalWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSignalWebPanel.swift; sourceTree = "<group>"; };
+		ADCB293E76082B9CF9A61F73 /* SignalRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalRootView.swift; sourceTree = "<group>"; };
+		EC46212F99F4574D53857FB4 /* ObservatoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservatoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		31CA7B25146A93A25AB7B649 /* Deep Signal */ = {
+			isa = PBXGroup;
+			children = (
+				5FC7EE05C964AFC1973D9DD6 /* ArchiveView.swift */,
+				5F9D92548B35CF1FF0652A23 /* Assets.xcassets */,
+				52938E9E27D31E0ACE8E23D1 /* DecodeView.swift */,
+				80150799A477D06B901AE21F /* DeepSignalApp.swift */,
+				508889150CF67E6CDD914F68 /* DeepSignalLoadingScreen.swift */,
+				9D6A1B397B42F1D6311637E0 /* DeepSignalWebPanel.swift */,
+				6D312389BC0C78233AC8B745 /* GameModel.swift */,
+				712E5D21C20B1BD4C46D21E7 /* Icons.swift */,
+				6CC303D9E607191FF1B675C4 /* Info.plist */,
+				446FC725786116EA26C92FBE /* Lore.swift */,
+				EC46212F99F4574D53857FB4 /* ObservatoryView.swift */,
+				5DA21E32FB17E363184D0BC3 /* SettingsView.swift */,
+				64A8E44E946C48CD06AA2AAB /* SharedComponents.swift */,
+				ADCB293E76082B9CF9A61F73 /* SignalRootView.swift */,
+				9A74D34421227503A69C4447 /* StarfieldView.swift */,
+				6E82B1A1CECA505182F02AC7 /* Theme.swift */,
+			);
+			path = "Deep Signal";
+			sourceTree = "<group>";
+		};
+		4E821C38CCDD86E14A369329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9587943943C5A16E1E99D355 /* Deep Signal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED443231A6977E81DDFE8936 = {
+			isa = PBXGroup;
+			children = (
+				31CA7B25146A93A25AB7B649 /* Deep Signal */,
+				4E821C38CCDD86E14A369329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82709E0E864760E413F2269D /* Deep Signal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0F00573EB8E8FAC72C0575 /* Build configuration list for PBXNativeTarget "Deep Signal" */;
+			buildPhases = (
+				FCCAF1E4BD44985021055481 /* Sources */,
+				CFF738D4C7935214CF7E9E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deep Signal";
+			packageProductDependencies = (
+			);
+			productName = "Deep Signal";
+			productReference = 9587943943C5A16E1E99D355 /* Deep Signal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B976A3C79C582BDFBFC94B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					82709E0E864760E413F2269D = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CBC7F0528A03488D5A0FC903 /* Build configuration list for PBXProject "Deep Signal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = ED443231A6977E81DDFE8936;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4E821C38CCDD86E14A369329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82709E0E864760E413F2269D /* Deep Signal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF738D4C7935214CF7E9E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E512F76707B87054D3CD0AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCAF1E4BD44985021055481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4036201E77B5979860B009D5 /* ArchiveView.swift in Sources */,
+				149227990E1C93A9F6A8A002 /* DecodeView.swift in Sources */,
+				B007A1EEADBF7AC8C8E5F976 /* DeepSignalApp.swift in Sources */,
+				BA3365FC8F104BD361A65ACD /* DeepSignalLoadingScreen.swift in Sources */,
+				08C48BB7D980A116AFC265D2 /* DeepSignalWebPanel.swift in Sources */,
+				267E649BEF081EAFF55A12D0 /* GameModel.swift in Sources */,
+				B265F49D8C32EE712D0E049A /* Icons.swift in Sources */,
+				302EC8372A5A8AE1296222C3 /* Lore.swift in Sources */,
+				3A04E16163EBDE9A26496661 /* ObservatoryView.swift in Sources */,
+				AB8267C5A16F58BC3618987B /* SettingsView.swift in Sources */,
+				858AB53C1BF851D338DAB475 /* SharedComponents.swift in Sources */,
+				1031CCA0B83411E32121FE0A /* SignalRootView.swift in Sources */,
+				525E7EE08006AB3C3F322D86 /* StarfieldView.swift in Sources */,
+				FFD547F570EF70A6FA55FE28 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B4EB685BB57703597B31D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Deep Signal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsignal.app;
+				PRODUCT_NAME = "Deep Signal";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91B453C4453439772B3DF7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C77F06EE4CFFE60A719AE7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Deep Signal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsignal.app;
+				PRODUCT_NAME = "Deep Signal";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4BB80A5BE97FF711EC670EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC7F0528A03488D5A0FC903 /* Build configuration list for PBXProject "Deep Signal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BB80A5BE97FF711EC670EF /* Debug */,
+				91B453C4453439772B3DF7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0F00573EB8E8FAC72C0575 /* Build configuration list for PBXNativeTarget "Deep Signal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77F06EE4CFFE60A719AE7EC /* Debug */,
+				0B4EB685BB57703597B31D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B976A3C79C582BDFBFC94B54 /* Project object */;
+}
