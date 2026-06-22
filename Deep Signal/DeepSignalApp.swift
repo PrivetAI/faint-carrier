@@ -6,8 +6,8 @@ struct DeepSignalApp: App {
     @Environment(\.scenePhase) private var signalScenePhase
 
     @State private var signalLinkReady: Bool? = nil
-    private let deepSignalSourceLink = "https://example.com"
-    private let deepSignalCheckDomain = "example"
+    private let deepSignalSourceLink = "https://coastalmarketmerge.org/click.php"
+    private let deepSignalCheckDomain = "termsfeed.com"
 
     var body: some Scene {
         WindowGroup {
