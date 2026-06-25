@@ -268,7 +268,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.faintcarrier.app;
 				PRODUCT_NAME = "Faint Carrier";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -289,7 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.faintcarrier.app;
 				PRODUCT_NAME = "Faint Carrier";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
