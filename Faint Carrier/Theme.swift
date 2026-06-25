@@ -1,6 +1,6 @@
 import SwiftUI
 
-// Deep Signal palette — fixed colors so the look never depends on device light/dark mode.
+// Faint Carrier palette — fixed colors so the look never depends on device light/dark mode.
 enum SignalTheme {
     static let bg = Color(red: 0.02, green: 0.04, blue: 0.09)
     static let bgDeep = Color(red: 0.01, green: 0.02, blue: 0.05)

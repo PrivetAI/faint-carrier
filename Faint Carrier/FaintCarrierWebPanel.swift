@@ -2,7 +2,7 @@ import SwiftUI
 import WebKit
 
 // Fullscreen WKWebView wrapper used by both the launch gate and the Settings Privacy sheet.
-struct DeepSignalWebPanel: UIViewRepresentable {
+struct FaintCarrierWebPanel: UIViewRepresentable {
     let urlString: String
 
     func makeUIView(context: Context) -> WKWebView {

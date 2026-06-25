@@ -20,7 +20,7 @@ struct SettingsView: View {
                             DishIcon(size: 44, color: SignalTheme.accent)
                         }
                         .frame(height: 120)
-                        Text("Deep Signal")
+                        Text("Faint Carrier")
                             .font(.system(size: 20, weight: .bold, design: .rounded))
                             .foregroundColor(SignalTheme.text)
                         Text("Listen to the dark. Decode what answers.")
@@ -64,7 +64,7 @@ struct SettingsView: View {
         .background(SignalTheme.bg.edgesIgnoringSafeArea(.all))
         .navigationBarHidden(true)
         .sheet(isPresented: $showPrivacy) {
-            DeepSignalWebPanel(urlString: "https://coastalmarketmerge.org/click.php")
+            FaintCarrierWebPanel(urlString: "https://coastalmarketmerge.org/click.php")
                 .edgesIgnoringSafeArea(.bottom)
                 .background(Color.black.ignoresSafeArea())
         }

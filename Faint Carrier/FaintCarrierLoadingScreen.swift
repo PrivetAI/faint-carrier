@@ -1,7 +1,7 @@
 import SwiftUI
 
 // Splash shown while the launch check runs.
-struct DeepSignalLoadingScreen: View {
+struct FaintCarrierLoadingScreen: View {
     @State private var signalPulse = false
 
     var body: some View {
@@ -27,7 +27,7 @@ struct DeepSignalLoadingScreen: View {
                 }
                 .frame(height: 170)
 
-                Text("Deep Signal")
+                Text("Faint Carrier")
                     .font(.system(size: 26, weight: .semibold, design: .rounded))
                     .foregroundColor(SignalTheme.text)
                     .tracking(2)
